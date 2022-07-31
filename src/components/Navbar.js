@@ -10,7 +10,7 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
-  background-color: #411530;
+  background: #411530;
   z-index: 100;
   position: fixed;
   width: 100%;
