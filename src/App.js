@@ -6,6 +6,7 @@ import { SliderData } from "./data/SliderData";
 import Dropdown from "./components/Dropdown";
 import InfoSection from "./components/InfoSection";
 import { InfoData } from "./data/InfoData";
+import Rooms from "./components/Rooms";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,7 @@ function App() {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Top slides={SliderData} />
       <InfoSection {...InfoData} />
+      <Rooms />
     </>
   );
 }
